@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@1,300;1,500;1,700;1,900&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="avatar">
+                <img src="/img/background.jpg" alt="cover pic" class="avatarImg">
+            </div>
+            <div class="details">
+                <h3 class="songName">Galway Girl</h3>
+                <p class="artist">Ed Sheeran</p>
+            </div>
+            <div class="volume-control">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+        
+                <input type="range" min="0" max="10" class="volumeBar">
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+                
+            </div>
+            <div class="control">
+                <button class="repeat"><i class="fas fa-retweet"></i></button>
+                <button class="like"><i class="fas fa-heart"></i></button>
+                <button class="volumeBtn"><i class="fas fa-volume-up"></i></button>
+            </div>
+            <div class="music">
+                
+                <div class="sliderdiv">
+                    
+                    <input  type="range" value="0" min="0" max="100" id="myinput" class="range-slider">
+                </div>
+                <div class="time">
+                    <p class="initial">0:00</p>
+                    <p class="end">0:00</p>
+                </div>
+                
+
+            </div>
+            <div class="play">
+                
+                <button class="backBtn"><i class="fas fa-backward"></i></button>
+                <button class="playBtn"><i class="fas fa-play"></i></button>
+                <button class="pauseBtn"> <i class="fas fa-grip-lines-vertical"></i></button>
+               
+                <button class="nextBtn"><i class="fas fa-forward"></i></button>
+                
+            </div>
+            
+        </div>
+        <audio src="/music/Galwaygirl.mp3"  id="songid" class="song"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+
+</html>
+

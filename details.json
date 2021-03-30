@@ -1,0 +1,41 @@
+[
+    {
+        "id":0,
+        "title":"Memories",
+        "artist":"Maroon5",
+        "source":"music/Memories.mp3",
+        "img":"/img/maroon5.jpg"
+    },
+    {
+        "id":1,
+        "title":"Brown_Munde",
+        "artist":"AP Dillion",
+        "source":"music/Brown_Munde.mp3",
+        "img":"/img/brownmunde.jpg"
+       
+    },
+    {
+        "id":2,
+        "title":"Brown Rang",
+        "artist":"Honey Singh",
+        "source":"music/Brown Rang.mp3",
+        "img":"img/honey.jpg"
+       
+    },
+    {
+        "id":3,
+        "title":"Girls Like You",
+        "artist":"Maroon5",
+        "source":"music/Girls like you.mp3",
+        "img":"/img/maroon5.jpg"
+        
+    },
+    {
+        "id":4,
+        "title":"Shape of You",
+        "artist":"Ed Sheeran",
+        "source":"music/Shape of you.mp3",
+        "img":"/img/ED.jpg"
+        
+    }
+]
